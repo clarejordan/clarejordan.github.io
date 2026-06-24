@@ -1,40 +1,39 @@
-# Clare Jordan Professional Website
+# Clare Jordan Portfolio Website
 
-This is a static, deploy-ready professional website for Clare Jordan.
+This is a clean static portfolio website for Clare Jordan.
 
-## Files
+Live site:
 
-- `index.html` - site content and structure
-- `ai-mental-health-proof.html` - shareable AI and mental health work page
-- `linkedin-profile-edits.md` - LinkedIn copy and featured-link notes
-- `styles.css` - responsive visual design and brand system
-- `brand-system.md` - visual and voice guidelines
-- `script.js` - small navigation behavior
+https://clarejordan.github.io/
+
+## Pages
+
+- `index.html` - Home
+- `about.html` - About
+- `resume.html` - Resume
+- `case-studies.html` - Case Studies
+- `projects.html` - Projects
+- `writing.html` - Writing
+- `contact.html` - Contact
+
+## Supporting Files
+
+- `styles.css` - shared visual design
+- `script.js` - mobile navigation behavior
 - `assets/clare-jordan-mark.svg` - site mark
 - `assets/brand-card.svg` - social/share card
-- `assets/github-header.svg` - matching GitHub header
+- `EDITING.md` - plain-language editing and deployment instructions
 
-## Public Links
+## Editing
 
-- Website domain recommendation: `clareljordan.com`
-- GitHub: https://github.com/clarejordan
-- GitHub examples: https://github.com/clarejordan/clarejordan/tree/main/examples
-- LinkedIn: https://www.linkedin.com/in/clareljordan
+Open the relevant `.html` file and edit the text between the tags. For example, to update the About page, open `about.html` and change the paragraphs inside the main content area.
 
-## Domain Notes
+For detailed instructions, see `EDITING.md`.
 
-Registry snapshot on June 23, 2026:
+## Deploying
 
-- `clarejordan.com` appears registered through December 31, 2026.
-- `clareljordan.com` returned no RDAP record and may be available.
-- `clare-jordan.com` returned no RDAP record and may be available.
-- `clarejordan.org` returned no RDAP record and may be available.
-- `clarejordan.health` returned no RDAP record and may be available.
+This site is published with GitHub Pages from the `main` branch of:
 
-The strongest recommendation is `clareljordan.com` because it keeps the desired `.com` ending and matches the LinkedIn handle.
+https://github.com/clarejordan/clarejordan.github.io
 
-## Deployment
-
-The site can be hosted on any static host, including Netlify, Vercel, Cloudflare Pages, or GitHub Pages. After the domain is purchased, connect the chosen host to the domain and add a `CNAME` file only if the host requires it.
-
-Recommended GitHub repository: `clarejordan/clarejordan.github.io`, because that name can serve the site directly from GitHub Pages while still supporting a future custom domain.
+After edits are committed and pushed to GitHub, GitHub Pages republishes automatically. It can take a few minutes for the public site to update.

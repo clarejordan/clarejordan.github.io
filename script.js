@@ -1,12 +1,6 @@
 (function () {
-  const header = document.querySelector("[data-header]");
   const toggle = document.querySelector(".nav-toggle");
   const nav = document.querySelector(".site-nav");
-
-  function setHeaderState() {
-    if (!header) return;
-    header.classList.toggle("is-scrolled", window.scrollY > 12);
-  }
 
   function closeNav() {
     if (!toggle || !nav) return;
@@ -14,9 +8,6 @@
     toggle.setAttribute("aria-expanded", "false");
     toggle.setAttribute("aria-label", "Open navigation");
   }
-
-  setHeaderState();
-  window.addEventListener("scroll", setHeaderState, { passive: true });
 
   if (toggle && nav) {
     toggle.addEventListener("click", function () {
